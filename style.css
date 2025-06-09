@@ -1,0 +1,85 @@
+       /* Aplicando fonte as escritas em geral */
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        /* Cor das seções/titulos */
+        .title {
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .title-section {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .section-colors {
+            background-color: #c7c7c7;
+        }
+
+        /* Ajustando cor e background dos links */
+        .tab-content .btn,
+        #contatos form .btn {
+            color: #000;
+            font-family: "Roboto", sans-serif;
+            background-color: #fff;
+        }
+
+        .tab-content .btn:hover,
+        #contatos form .btn:hover {
+            background-color: #111111;
+            color: #fff;
+        }
+
+        .nav .nav-link {
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .nav .nav-link:hover {
+            color: #ffffff93;
+        }
+
+        .nav .nav-link.active {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .nav .nav-link.active:hover {
+            color: #000;
+        }
+
+        .navbar-toggler {
+            background-color: #fff;
+        }
+
+        /* Estilizando os li de habilidades */
+        #sobre li {
+            list-style: none;
+        }
+
+        /* Estilizando links das redes sociais */
+        #contatos li {
+            list-style: none;
+            display: inline;
+        }
+
+        #contatos li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #contatos .whatsapp a:hover {
+            color: rgb(0, 255, 64);
+        }
+
+        #contatos .github a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        #contatos .instagram a:hover {
+            color: transparent;
+            background-image: linear-gradient(to bottom, rgb(238, 10, 116) ,rgb(241, 127, 50));
+            background-clip: text;
+            display: inline-block;
+        }
