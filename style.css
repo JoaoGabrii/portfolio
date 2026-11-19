@@ -185,3 +185,29 @@ body{background:#151715;font-family:'DM Sans',sans-serif}
 
 /* Portfolio selecionado e compacto */
 .hero-layout{padding:75px 0 80px;min-height:590px}.hero{min-height:590px}.hero-art{min-height:410px}.hero-display{min-height:380px}.section{padding:75px 0}.section-head{margin-bottom:22px}.filters{margin-bottom:18px}.portfolio-curation{font-size:11px;font-weight:800;letter-spacing:1.3px;color:#5f752e}.project-image{height:265px}.project-info{padding:24px}.project-info p{min-height:0}.calendar-art{height:100%;padding:26px 32px;background:linear-gradient(135deg,#392e57,#8473b4);color:white;display:flex;flex-direction:column;justify-content:space-between}.calendar-art>span{font-size:11px;font-weight:800;letter-spacing:2px}.calendar-art strong{font-family:'Space Grotesk',sans-serif;font-size:42px;line-height:1.1;letter-spacing:-2px}.calendar-art-grid{display:flex;gap:8px}.calendar-art-grid i{width:44px;height:22px;background:#c7b4f1;border-radius:5px}.calendar-art-grid i:nth-child(2n){background:#ffffff65}.calendar-art small{font-size:10px;color:#eee5ff}@media(max-width:760px){.hero-layout{padding:55px 0}.hero{min-height:0}.section{padding:60px 0}.project-image{height:230px}}
+
+
+/* Desktop portfolio: readable at 100% zoom without oversized hero */
+@media(min-width:901px){
+.hero{min-height:0}
+.hero-layout{min-height:0;padding:52px 0 56px;gap:38px;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
+.hero h1{font-size:clamp(40px,4.1vw,61px);line-height:1.075;margin:17px 0 16px;letter-spacing:-.055em}
+.hero-content>p{font-size:14px;line-height:1.65;max-width:540px}
+.hero-actions{margin:18px 0}
+.hero-facts{margin-top:18px}
+.hero-art{min-height:350px}
+.hero-display{min-height:335px;max-width:350px;padding:22px}
+.hero-orbit{width:345px;height:345px}
+.orbit-two{width:405px;height:405px}
+.display-symbol{font-size:125px}
+.section{padding:58px 0}
+}
+@media(min-width:901px) and (max-height:850px){
+.hero-layout{padding:32px 0 36px}
+.hero h1{font-size:clamp(39px,3.8vw,55px)}
+.hero-art{min-height:305px}
+.hero-display{min-height:300px;max-width:310px}
+.hero-orbit{width:305px;height:305px}
+.orbit-two{width:365px;height:365px}
+}
+@media(max-width:900px){.hero{min-height:0}.hero-layout{min-height:0}.hero h1{font-size:clamp(39px,6vw,58px)}}
